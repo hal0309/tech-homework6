@@ -18,7 +18,7 @@ public class Shop {
     }
 
     public void printItems() {
-        System.out.println("Shop: " + name);
-        items.forEach((item, count) -> System.out.println(item + " - " + count));
+        System.out.println(name);
+        items.forEach((item, count) -> System.out.println(item + ": " + count + "個"));
     }
 }
