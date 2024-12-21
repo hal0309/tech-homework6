@@ -4,7 +4,7 @@ class Shop(private val name: String, private val items: Map<Item, Int>) {
     fun printItems() {
         println(name)
         items.forEach { (item, count) ->
-            println(item.toString() + ": " + count + "個")
+            println("${item}: ${count}個")
         }
     }
 
