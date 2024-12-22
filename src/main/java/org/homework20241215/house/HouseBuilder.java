@@ -29,6 +29,9 @@ public class HouseBuilder {
     }
 
     public House build() {
+        if(address == null){
+            throw new IllegalStateException("");
+        }
         return new House(address, floors, floorMaterial, wallMaterial);
     }
 

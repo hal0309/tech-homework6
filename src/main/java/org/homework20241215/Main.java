@@ -35,6 +35,11 @@ public class Main {
                 .build();
 
         ramenShop.printRamenDetail();
+        ramenShop.printRamenDetail();
+        ramenShop.printRamenDetail();
+        ramenShop.printRamenDetail();
+        ramenShop.printRamenDetail();
+        ramenShop.printRamenDetail();
 
         House house = House.builder()
                 .setAddress("二郎")

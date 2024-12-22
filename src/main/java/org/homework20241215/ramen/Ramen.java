@@ -18,18 +18,24 @@ public class Ramen {
 
     private Map<Topping, Integer> toppings;
 
+    private int totalPrice;
+
     public Ramen(String name,Integer ramenPrice, Map<Topping, Integer> toppings) {
         this.name = name;
         this.ramenPrice = ramenPrice;
         this.toppings = toppings;
+
+        totalPrice = ramenPrice;
+        for(int price: toppings.values()){
+            totalPrice += price;
+        }
+//        toppings.values().forEach(price ->
+//                totalPrice += price
+//        );
     }
 
     public void printRamenDetail() {
-        int sum =0;
-        for(int price:toppings.values()){
-            sum = sum + price;
-        }
-        int totalPrice = sum + ramenPrice;
+
         System.out.println(name + "(" + totalPrice + "円" + ")");
         System.out.println("トッピング:");
         toppings.forEach((topping, count) -> System.out.println("- " + topping + ": " + count));

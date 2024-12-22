@@ -22,7 +22,6 @@ public class RamenBuilder {
         return this;
     }
 
-
     public RamenBuilder addToppings(Topping topping, int toppingPrice) {
         this.toppings.put(topping, toppingPrice);
         return this;
