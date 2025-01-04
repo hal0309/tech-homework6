@@ -1,9 +1,9 @@
 package org.homework20250105.java.animal;
 
 public abstract class Animal {
-    private String name;
-    private Integer age;
-    private AnimalEnum type;
+    private String name; // 名前
+    private Integer age; // 年齢
+    private AnimalEnum type;  // 動物の種類
 
     public Animal(String name, Integer age, AnimalEnum type) {
         this.name = name;
@@ -16,6 +16,7 @@ public abstract class Animal {
     }
 
     public String getAge() {
+        // 年齢が未指定(null)の場合は"???"を返す
         if (age == null) {
             return "???";
         }
@@ -26,5 +27,5 @@ public abstract class Animal {
         return type;
     }
 
-    public abstract void say();
+    public abstract void say();  // 鳴き声を出力する抽象メソッド
 }
