@@ -35,7 +35,7 @@ public class Main {
         // 3歳以下の動物だけ表示
         System.out.println("\n---3歳以下の動物たち---");
         animals.stream()
-                .filter(animal -> animal.getAge() != null && Integer.parseInt(animal.getAge()) <= 3)
+                .filter(animal -> Integer.parseInt(animal.getAge()) <= 3)
                 .forEach(animal ->
                         System.out.println(animal.getName() + " (" + animal.getType() + ", " + animal.getAge() + ")")
                 );
@@ -45,7 +45,7 @@ public class Main {
         System.out.println("\n---5歳以上の人間たち---");
         animals.stream()
                 .filter(animal -> animal.getType() == AnimalEnum.HUMAN)
-                .filter(animal -> animal.getAge() != null && Integer.parseInt(animal.getAge()) >= 5)
+                .filter(animal -> Integer.parseInt(animal.getAge()) >= 5)
                 .forEach(animal ->
                         System.out.println(animal.getName() + " (" + animal.getType() + ", " + animal.getAge() + ")")
                 );
