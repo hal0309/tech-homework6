@@ -33,7 +33,7 @@ fun main() {
             .addTopping(Topping.NEGI, 200)
             .build();
 
-    ramenShop.printRamenDetail();
+    ramenShop.printRamenDetail(ramenShop.ramenPrice);
 
     var house = House.builder()
             .setAddress("コトリン港区")
@@ -43,6 +43,12 @@ fun main() {
             .build()
 
     house.printHouseDetail()
+
+    val house2 = org.homework20241215.house.House.builder()
+            .setAddress("コトリン港")
+            .build()
+
+    house2.printHouseDetail()
 
     try {
         var house2 = House.builder().build();  // address未指定のため例外が発生

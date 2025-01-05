@@ -1,6 +1,6 @@
 package org.homework20241222.shop
 
-public class ShopBuilder {
+class ShopBuilder {
 
     private var name: String? = null
     private var items: Map<Item, Int> = HashMap()
