@@ -1,6 +1,7 @@
 package org.homework20250105.java;
 
 import org.homework20250105.java.animal.*;
+import org.homework20250105.java.animal.base.Animal;
 
 import java.util.ArrayList;
 
@@ -13,12 +14,15 @@ public class Main {
 
         System.out.println(dog.getName() + " (" + dog.getType() + ", " + dog.getAge() + ")");
         dog.say();
+        dog.walk();
 
         System.out.println(cat.getName() + " (" + cat.getType() + ", " + cat.getAge() + ")");
         cat.say();
+        cat.walk();
 
         System.out.println(human.getName() + " (" + human.getType() + ", " + human.getAge() + ")");
         human.say();
+        human.walk();
 
         // 各10匹の動物を入れたリスト作成
         ArrayList<Animal> animals = new ArrayList<>();

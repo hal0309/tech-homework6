@@ -1,4 +1,6 @@
-package org.homework20250105.java.animal;
+package org.homework20250105.java.animal.base;
+
+import org.homework20250105.java.animal.AnimalEnum;
 
 public abstract class Animal {
     private String name; // 名前

@@ -1,7 +1,11 @@
 package org.homework20250105.java.animal;
 
-public class Human extends Animal {
-    public Human(String name, Integer age) {
+import org.homework20250105.java.animal.base.Animal;
+import org.homework20250105.java.animal.base.TwoFeet;
+
+public class Human extends Animal implements TwoFeet {
+
+        public Human(String name, Integer age) {
         super(name, age, AnimalEnum.HUMAN);
     }
 
