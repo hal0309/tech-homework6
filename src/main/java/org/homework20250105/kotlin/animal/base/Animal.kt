@@ -1,4 +1,6 @@
-package org.homework20250105.kotlin.animal
+package org.homework20250105.kotlin.animal.base
+
+import org.homework20250105.kotlin.animal.AnimalEnum
 
 abstract class Animal(// 名前
     val name: String, // 年齢

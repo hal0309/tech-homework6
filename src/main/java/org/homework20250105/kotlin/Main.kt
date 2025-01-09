@@ -1,6 +1,7 @@
 package org.homework20250105.kotlin
 
 import org.homework20250105.kotlin.animal.*
+import org.homework20250105.kotlin.animal.base.Animal
 
 fun main() {
     val dog = Dog("Pochi", 5)
@@ -9,12 +10,15 @@ fun main() {
 
     println("${dog.name} (${dog.type}, ${dog.getAge()})")
     dog.say()
+    dog.walk()
 
     println("${cat.name} (${cat.type}, ${cat.getAge()})")
     cat.say()
+    cat.walk()
 
     println("${human.name} (${human.type}, ${human.getAge()})")
     human.say()
+    human.walk()
 
     // 各10匹の動物を入れたリスト作成
     val animals = ArrayList<Animal>()
