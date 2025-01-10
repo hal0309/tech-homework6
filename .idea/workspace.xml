@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5fe86b5c-9265-4e19-897a-b3e48dc8361f" name="Changes" comment="homework 20250105">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/homework20250105/java/animal/base/ManyFeet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/homework20250105/java/animal/base/TwoFeet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/homework20250105/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/homework20250105/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/homework20250105/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/homework20250105/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/homework20250105/java/animal/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/homework20250105/java/animal/base/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/homework20250105/java/animal/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/homework20250105/java/animal/Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/homework20250105/java/animal/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/homework20250105/java/animal/Dog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/homework20250105/java/animal/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/homework20250105/java/animal/Human.java" afterDir="false" />
-    </list>
+    <list default="true" id="5fe86b5c-9265-4e19-897a-b3e48dc8361f" name="Changes" comment="homework 20250105 ans" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -216,6 +206,7 @@
     <MESSAGE value="homework 20241215" />
     <MESSAGE value="homework 20241215 ans" />
     <MESSAGE value="homework 20250105" />
-    <option name="LAST_COMMIT_MESSAGE" value="homework 20250105" />
+    <MESSAGE value="homework 20250105 ans" />
+    <option name="LAST_COMMIT_MESSAGE" value="homework 20250105 ans" />
   </component>
 </project>
