@@ -5,14 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5fe86b5c-9265-4e19-897a-b3e48dc8361f" name="Changes" comment="homework 20250105">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/homework20250105/kotlin/animal/base/ManyFeet.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/homework20250105/kotlin/animal/base/TwoFeet.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/homework20250119/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/homework20250119/java/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/homework20250119/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/homework20250119/java/Status.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/homework20250119/java/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/homework20250119/kotlin/Constants.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/homework20250119/kotlin/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/homework20250119/kotlin/Status.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/homework20250119/kotlin/User.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/homework20250105/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/homework20250105/kotlin/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/homework20250105/kotlin/animal/Animal.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/homework20250105/kotlin/animal/base/Animal.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/homework20250105/kotlin/animal/Cat.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/homework20250105/kotlin/animal/Cat.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/homework20250105/kotlin/animal/Dog.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/homework20250105/kotlin/animal/Dog.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/homework20250105/kotlin/animal/Human.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/homework20250105/kotlin/animal/Human.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,17 +45,19 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
-        <option value="Class" />
-        <option value="Kotlin Class" />
         <option value="Kotlin Interface" />
+        <option value="Kotlin Class" />
+        <option value="Class" />
+        <option value="Kotlin File" />
+        <option value="Enum" />
+        <option value="Kotlin Enum" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="homework-20250105" />
+        <entry key="$PROJECT_DIR$" value="homework-20250105-ans" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -69,23 +74,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "homework-20250105-ans",
-    "last_opened_file_path": "C:/Users/hal39/IdeaProjects/watanabe/homework6/homework6/src/main/java/org",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.applicationServers",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;homework-20250119&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/hal39/IdeaProjects/watanabe/homework6/homework6/src/main/java/org&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.applicationServers&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\hal39\IdeaProjects\watanabe\homework6\homework6\src\main\java\org" />
@@ -105,13 +110,13 @@
       <recent name="org.homework20241215.ramen" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.MainKt (1)">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.homework20250105.java.Main" />
+  <component name="RunManager" selected="Application.org.homework20250119.java.Main">
+    <configuration name="org.homework20250119.java.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.homework20250119.java.Main" />
       <module name="homework6.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.homework20250105.java.*" />
+          <option name="PATTERN" value="org.homework20250119.java.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,6 +153,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MainKt (2)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.homework20250119.kotlin.MainKt" />
+      <module name="homework6.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.homework20241222.MainKt" />
       <module name="homework6.main" />
@@ -157,10 +169,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.homework20250119.java.Main" />
+        <item itemvalue="Kotlin.MainKt (2)" />
         <item itemvalue="Kotlin.MainKt (1)" />
-        <item itemvalue="Application.Main" />
         <item itemvalue="Kotlin.MainKt" />
-        <item itemvalue="Gradle.homework6 [build]" />
         <item itemvalue="Gradle.homework6 [build]" />
       </list>
     </recent_temporary>
@@ -184,6 +196,9 @@
       <workItem from="1734789583876" duration="3892000" />
       <workItem from="1735982143528" duration="2286000" />
       <workItem from="1736004183632" duration="657000" />
+      <workItem from="1737210753298" duration="12000" />
+      <workItem from="1737210807223" duration="1017000" />
+      <workItem from="1737236089908" duration="3300000" />
     </task>
     <task id="LOCAL-00001" summary="homework20241215">
       <option name="closed" value="true" />
