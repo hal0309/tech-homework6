@@ -14,6 +14,7 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/org/homework20250105/kotlin/animal/Dog.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/homework20250105/kotlin/animal/Dog.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/homework20250105/kotlin/animal/Human.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/homework20250105/kotlin/animal/Human.kt" afterDir="false" />
     </list>
+    <list default="true" id="5fe86b5c-9265-4e19-897a-b3e48dc8361f" name="Changes" comment="homework 20250105 ans" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -236,6 +237,7 @@
     <MESSAGE value="homework 20241215" />
     <MESSAGE value="homework 20241215 ans" />
     <MESSAGE value="homework 20250105" />
-    <option name="LAST_COMMIT_MESSAGE" value="homework 20250105" />
+    <MESSAGE value="homework 20250105 ans" />
+    <option name="LAST_COMMIT_MESSAGE" value="homework 20250105 ans" />
   </component>
 </project>
