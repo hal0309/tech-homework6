@@ -20,7 +20,15 @@ fun main() {
         // 年齢が null の場合は -1 に設定
         user.age?.let {user.age}?: run { user.age = UNKNOWN_AGE }
         // メールアドレスが null の場合は "unknown@example.com" に設定
-        user.email?.let {user.email}?: run {user.email = UNKNOWN_EMAIL}
+         user.email?: run { user.email = UNKNOWN_EMAIL}
+
+
+        user.let {
+            it.email = it.email ?: UNKNOWN_EMAIL
+            it.age = it.age ?: UNKNOWN_AGE
+            it.name = it.name.ifEmpty {UNKNOWN_USERNAME}
+        }
+
 
         // 下記の書き方だとすべて年齢がなぜか -1 に設定
 //      user.age.let {
@@ -71,7 +79,6 @@ fun main() {
         System.out.println(user)
     }
 
-
     // ユーザー情報の整理 (applyを使って書き換え)
     users.forEach{user ->
         // 名前が空の場合は "Unknown" に設定
@@ -80,8 +87,34 @@ fun main() {
         user.age?.apply {user.age}?: {user.age = UNKNOWN_AGE}
         // メールアドレスが null の場合は "unknown@example.com" に設定
         user.email?.apply {user.email}?: {user.email = UNKNOWN_EMAIL}
-        user.hello();
-        println(user);
+
+        user.let {
+            it.email = it.email ?: UNKNOWN_EMAIL
+            it.age = it.age ?: UNKNOWN_AGE
+            it.name = it.name.ifEmpty {UNKNOWN_USERNAME}
+        }
+        var a = user.let {u ->
+            u.email = u.email ?: UNKNOWN_EMAIL
+            if (false){
+                return@let 34
+            }
+
+            u.age = u.age ?: UNKNOWN_AGE
+            u.name = u.name.ifEmpty {UNKNOWN_USERNAME}
+            13
+        }
+
+        var b  = user.apply {
+            name.ifEmpty {UNKNOWN_USERNAME}
+            age = age ?: UNKNOWN_AGE
+            email = email ?: UNKNOWN_EMAIL
+            123
+            hello()
+            println(this)
+            123
+        }
+
+        123
     }
     // ユーザー情報の整理 (alsoを使って書き換え)
     users.forEach{user ->

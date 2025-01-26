@@ -1,7 +1,7 @@
 package org.homework20250119.kotlin;
 
 
-class User(var name: String?, var age: Int?, var email: String?) {
+class User(var name: String, var age: Int?, var email: String?) {
 //    var name: String? = null
 //    var age: Int = 0
 //    var email: String? = null
@@ -21,10 +21,12 @@ class User(var name: String?, var age: Int?, var email: String?) {
 //        this.email = email
 
         // 年齢によってステータスを設定
-    when (age){
-      null -> this.status = Status.UNKNOWN
-      in 1..20 -> this.status = Status.JUNIOR
-      else -> this.status = Status.SENIOR
+    this.status = when (age){
+      null -> Status.UNKNOWN
+      in 1..20 -> {
+          Status.JUNIOR
+      }
+      else -> Status.SENIOR
     }
 //        if (age == null) {
 //            this.status = Status.UNKNOWN
