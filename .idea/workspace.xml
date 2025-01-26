@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5fe86b5c-9265-4e19-897a-b3e48dc8361f" name="Changes" comment="homework 20250119 ans">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/homework20250126/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/homework20250126/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/homework20250126/input1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/homework20250126/input2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="5fe86b5c-9265-4e19-897a-b3e48dc8361f" name="Changes" comment="homework 20250126" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
