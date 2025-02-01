@@ -1,8 +1,7 @@
-package org.homework20250126.query
+package org.homework20250202.query
 
 import org.homework20250202.data.UserDatabase
 import org.homework20250202.entity.User
-import org.homework20250202.query.Query
 
 class AddUserQuery(line: List<String>): Query {
     val user: User

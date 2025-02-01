@@ -1,4 +1,4 @@
-package org.homework20250126.entity
+package org.homework20250202.entity
 
 import org.homework20250202.util.UserUtil
 

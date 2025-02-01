@@ -1,7 +1,6 @@
-package org.homework20250126.data
+package org.homework20250202.data
 
 import org.homework20250202.entity.User
-import org.homework20250202.data.UserDatabase
 
 class UserDatabase {
     private val userList = mutableListOf<User>()

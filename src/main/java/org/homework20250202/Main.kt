@@ -1,4 +1,4 @@
-package org.homework20250126
+package org.homework20250202
 
 import org.homework20250202.data.UserDatabase
 import org.homework20250202.query.AddUserQuery
