@@ -4,17 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5fe86b5c-9265-4e19-897a-b3e48dc8361f" name="Changes" comment="homework 20250105">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/homework20250105/kotlin/animal/base/ManyFeet.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/homework20250105/kotlin/animal/base/TwoFeet.kt" afterDir="false" />
+    <list default="true" id="5fe86b5c-9265-4e19-897a-b3e48dc8361f" name="Changes" comment="レビュー御願いします">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/homework20250105/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/homework20250105/kotlin/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/homework20250105/kotlin/animal/Animal.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/homework20250105/kotlin/animal/base/Animal.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/homework20250105/kotlin/animal/Cat.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/homework20250105/kotlin/animal/Cat.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/homework20250105/kotlin/animal/Dog.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/homework20250105/kotlin/animal/Dog.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/homework20250105/kotlin/animal/Human.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/homework20250105/kotlin/animal/Human.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/homework20250126/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/homework20250126/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/homework20250126/User.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/homework20250126/User.kt" afterDir="false" />
     </list>
-    <list default="true" id="5fe86b5c-9265-4e19-897a-b3e48dc8361f" name="Changes" comment="homework 20250105 ans" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,7 +49,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="homework-20250119-ans" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -72,23 +66,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "homework-20250126",
-    "last_opened_file_path": "C:/Users/hal39/IdeaProjects/watanabe/homework6/homework6/src/main/resources/homework20250126",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.applicationServers",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;watanabe20250126&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/hal39/IdeaProjects/watanabe/homework6/homework6/src/main/resources/homework20250126&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.applicationServers&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\hal39\IdeaProjects\watanabe\homework6\homework6\src\main\resources\homework20250126" />
@@ -104,6 +98,7 @@
       <recent name="org.homework20250105.kotlin.animal.base" />
     </key>
     <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="org.homework20250126" />
       <recent name="org.homework20250105.kotlin.animal.base" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -111,7 +106,7 @@
       <recent name="org.homework20241215.ramen" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.MainKt (2)">
+  <component name="RunManager" selected="Kotlin.MainKt (3)">
     <configuration name="org.homework20250119.java.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.homework20250119.java.Main" />
       <module name="homework6.main" />
@@ -125,28 +120,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="homework6 [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="build" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>false</RunAsTest>
-      <method v="2" />
-    </configuration>
     <configuration name="MainKt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.homework20250105.kotlin.MainKt" />
       <module name="homework6.main" />
@@ -155,6 +128,13 @@
       </method>
     </configuration>
     <configuration name="MainKt (2)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.homework20250119.kotlin.MainKt" />
+      <module name="homework6.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainKt (3)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.homework20250126.MainKt" />
       <module name="homework6.main" />
       <method v="2">
@@ -162,7 +142,7 @@
       </method>
     </configuration>
     <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.homework20250119.kotlin.MainKt" />
+      <option name="MAIN_CLASS_NAME" value="org.homework20241222.MainKt" />
       <module name="homework6.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -177,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.MainKt (3)" />
         <item itemvalue="Kotlin.MainKt (2)" />
-        <item itemvalue="Kotlin.MainKt (2)" />
+        <item itemvalue="アプリケーション.org.homework20250119.java.Main" />
         <item itemvalue="Kotlin.MainKt (1)" />
         <item itemvalue="Kotlin.MainKt" />
-        <item itemvalue="Gradle.homework6 [build]" />
       </list>
     </recent_temporary>
   </component>
@@ -258,11 +238,30 @@
       <option name="project" value="LOCAL" />
       <updated>1737814079075</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="レビュー御願いします">
+      <option name="closed" value="true" />
+      <created>1737896181454</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1737896181454</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="homework20241215" />
@@ -270,6 +269,17 @@
     <MESSAGE value="homework 20241215 ans" />
     <MESSAGE value="homework 20250105" />
     <MESSAGE value="homework 20250126" />
-    <option name="LAST_COMMIT_MESSAGE" value="homework 20250126" />
+    <MESSAGE value="レビュー御願いします" />
+    <option name="LAST_COMMIT_MESSAGE" value="レビュー御願いします" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="JetRunConfigurationType">
+        <watch expression="name" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/tech_homework6$MainKt__2_.ic" NAME="MainKt (2) のカバレッジ結果" MODIFIED="1737813728066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

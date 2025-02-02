@@ -8,6 +8,13 @@ class User(
         val userId: String?
 ) {
 
+    constructor(
+        username: String?,
+        age: String?,
+        password: String?,
+        registrationDateTime: String?
+    ) : this(username, age, password, registrationDateTime, registrationDateTime!!.replace("-", "").replace(":", ""))
+
 
 //    fun getUsername(): String? {
 //        return username

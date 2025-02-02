@@ -15,27 +15,30 @@ fun main() {
 
 
         File(pathPrefix + fname).forEachLine { line ->
+            mojiSplitList = line.split(" ")
             // add_user
             if (line.contains("add_user", true)) {
-                mojiSplitList = line.split(" ")
+//                mojiSplitList = line.split(" ")
+                hojiList.add(User(
+                        mojiSplitList[3],
+                        mojiSplitList[4],
+                        mojiSplitList[5],
+                        "${mojiSplitList[1]} ${mojiSplitList[2]}",
+                        "${mojiSplitList[1]}${mojiSplitList[2]}".replace("-", "").replace(":", "")
+                ))
                 println("${mojiSplitList[3]} added.")  // 各行を処理
                 var result = mojiSplitList[1].replace("-", "")
                 result += mojiSplitList[2].replace(":", "")
                 println("${result}: ${mojiSplitList[3]}")
-                hojiList.add(User(
-                        mojiSplitList[3],
-                        mojiSplitList[4],
-                        null,
-                        null,
-                        "${mojiSplitList[1]}${mojiSplitList[2]}".replace("-", "").replace(":", "")
-                ))
+
             }
 
             // remove_user
             if (line.contains("remove_user", true)) {
                 mojiSplitList = line.split(" ")
                 // toSetしないとなぜかエラーになる
-                hojiList.toSet().forEach { it ->
+                val hojiList2 = hojiList.toSet()
+                hojiList2.forEach { it ->
                     // [username] removed.
                     if (it.userId == mojiSplitList[3]) {
                         println("${mojiSplitList[3]} removed.")  // 各行を処理
@@ -55,7 +58,6 @@ fun main() {
                     println("${it.userId}: ${it.username}")
                 }
             }
-
 
         }
     }
