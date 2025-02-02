@@ -4,19 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5fe86b5c-9265-4e19-897a-b3e48dc8361f" name="Changes" comment="homework 20250126 ans">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/homework20250202/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/homework20250202/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/homework20250202/data/UserDatabase.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/homework20250202/entity/User.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/homework20250202/query/AddUserQuery.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/homework20250202/query/Query.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/homework20250202/util/UserUtil.kt" afterDir="false" />
+    <list default="true" id="5fe86b5c-9265-4e19-897a-b3e48dc8361f" name="Changes" comment="homework 20250202">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/homework20250126/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/homework20250126/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/homework20250126/data/UserDatabase.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/homework20250126/data/UserDatabase.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/homework20250126/entity/User.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/homework20250126/entity/User.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/homework20250126/query/AddUserQuery.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/homework20250126/query/AddUserQuery.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/homework20250202/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/homework20250202/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,23 +66,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "homework-20250202",
-    "last_opened_file_path": "C:/Users/hal39/IdeaProjects/watanabe/homework6/homework6/src/main/java/org",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.applicationServers",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;homework-20250202&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/hal39/IdeaProjects/watanabe/homework6/homework6/src/main/java/org&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.applicationServers&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\hal39\IdeaProjects\watanabe\homework6\homework6\src\main\java\org" />
@@ -214,6 +204,8 @@
       <workItem from="1737773493115" duration="112000" />
       <workItem from="1737774133105" duration="5086000" />
       <workItem from="1738397959274" duration="2528000" />
+      <workItem from="1738400537365" duration="22000" />
+      <workItem from="1738458871199" duration="334000" />
     </task>
     <task id="LOCAL-00001" summary="homework20241215">
       <option name="closed" value="true" />
@@ -271,7 +263,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738400116361</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="homework 20250202">
+      <option name="closed" value="true" />
+      <created>1738400555008</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1738400555008</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -284,6 +284,7 @@
     <MESSAGE value="homework 20250105" />
     <MESSAGE value="homework 20250126" />
     <MESSAGE value="homework 20250126 ans" />
-    <option name="LAST_COMMIT_MESSAGE" value="homework 20250126 ans" />
+    <MESSAGE value="homework 20250202" />
+    <option name="LAST_COMMIT_MESSAGE" value="homework 20250202" />
   </component>
 </project>
