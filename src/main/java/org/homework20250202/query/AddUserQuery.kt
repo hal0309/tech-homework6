@@ -16,13 +16,8 @@ class AddUserQuery(line: List<String>): Query {
     }
 
     override fun execute() {
-        addUser(user)
+        UserDatabase.getInstance().addUser(user)
         println("${user.username} added.")
-    }
-
-    private fun addUser(user: User) {
-        val userDb = UserDatabase.getInstance()
-        userDb.addUser(user)
     }
 
     companion object {
