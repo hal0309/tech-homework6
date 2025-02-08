@@ -42,6 +42,84 @@ log: [YYYY-MM-DD hh:mm:ss] [queryname(optional)]
 ----
 ```
 
+### 2. 入出力例
+#### 入力例1
+```
+add_user: 2023-11-01 12:00:00 haruki 23 2525
+show_users: 2023-11-02 12:03:35
+login_user: 2023-11-02 12:07:01 haruki 2525
+remove_user: 2023-11-03 12:05:23 20231101120000
+log: 2023-11-03 12:12:18
+show_users: 2023-11-03 12:15:20
+```
+
+
+#### 出力例1
+```
+haruki added.
+--users--
+20231101120000: haruki
+welcome haruki!
+age: 23
+userid: 20231101120000
+registered at: 2023-11-01 12:00:00
+goodbye haruki!
+----
+haruki removed.
+-- log --
+2023-11-01 12:00:00: add_user
+2023-11-02 12:03:35: show_users
+2023-11-02 12:07:01: login_user
+2023-11-03 12:05:23: remove_user
+2023-11-03 12:12:18: log
+----
+--users--
+----
+```
+---
+
+
+#### 入力例2
+```
+add_user: 2023-11-01 12:00:00 haruki 23 2525
+add_user: 2023-11-01 12:00:01 yamada 25 1234
+add_user: 2023-11-01 12:00:02 tanaka 30 5325
+show_users: 2023-11-02 12:03:35
+remove_user: 2023-11-01 12:05:23 20231101120001
+remove_user: 2023-11-01 12:05:25 20231101120001
+show_users: 2023-11-01 12:15:20
+log: 2023-11-03 12:12:18 add_user
+```
+
+#### 出力例2
+```
+haruki added.
+yamada added.
+tanaka added.
+--users--
+20231101120000: haruki
+20231101120001: yamada
+20231101120002: tanaka
+----
+yamada removed.
+20231101120001 not found.
+--users--
+20231101120000: haruki
+20231101120002: tanaka
+----
+-- log --
+2023-11-01 12:00:00: add_user
+2023-11-01 12:00:01: add_user
+2023-11-01 12:00:02: add_user
+2023-11-02 12:03:35: show_users
+2023-11-01 12:05:23: remove_user
+2023-11-01 12:05:25: remove_user
+2023-11-01 12:15:20: show_users
+2023-11-03 12:12:18: log
+----
+```
+
+
 ## 2024年2月2日
 
 ### 1. 演習内容
