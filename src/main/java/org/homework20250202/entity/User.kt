@@ -11,4 +11,5 @@ data class User (
 ){
     constructor(username: String, age: Int, password: String, date: String):
             this(username, age, password, date, UserUtil.createId(date))
+
 }

@@ -7,4 +7,12 @@ object UserUtil {
             .replace(":", "")
             .replace(" ", "")
     }
+
+    fun removeId(date: String): String {
+        return date
+            .replace("-", "")
+            .replace(":", "")
+            .replace(" ", "")
+    }
+
 }
