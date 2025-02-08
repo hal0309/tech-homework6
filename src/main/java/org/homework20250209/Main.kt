@@ -9,8 +9,8 @@ import java.io.File
 
 
 fun main() {
-    val pathPrefix = "src/main/resources/homeWork20250126/"
-    val fileNameList = listOf("input1.txt", "input2.txt")
+    val pathPrefix = "src/main/resources/homeWork20250209/"
+    val fileNameList = listOf("input3.txt", "input4.txt")
 
     val userDb = UserDatabase.getInstance()
     fileNameList.forEach { fname ->
@@ -18,14 +18,13 @@ fun main() {
 
         File(pathPrefix+fname).forEachLine { line ->
             val lineList = line.split(" ")
-            val queryType = lineList[0]
+            val queryType = lineList[0].dropLast(1)
 
             val query: Query = when (queryType) {
-                "add_user:" -> AddUserQuery(lineList)
-                "remove_user:" -> RemoveUserQuery(lineList)
-                "show_users:" -> ShowUsersQuery(lineList)
+                QUERY_ADD_USER -> AddUserQuery(lineList)
+                QUERY_REMOVE_USER -> RemoveUserQuery(lineList)
+                QUERY_SHOW_USERS -> ShowUsersQuery(lineList)
                 else -> {
-                    println(lineList)
                     throw IllegalArgumentException("Invalid query type: $queryType")
                 }
             }

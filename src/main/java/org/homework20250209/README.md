@@ -1,4 +1,46 @@
 # Homework6
+## 2024年2月9日
+
+### 1. 演習内容
+今回は新たなクエリ`login_user`と`log`を追加します。
+
+#### `login_user`
+ユーザーがログインします。  
+ログインを行うとユーザー情報の詳細が返答として返ってきます。
+
+```
+login_user: YYYY-MM-DD hh:mm:ss [username] [password]
+```
+
+返答は以下の通りです。
+```
+welcome [username]!
+age: [age]
+userid: [userid]
+registered at: [YYYY-MM-DD hh:mm:ss]
+goodbye [username]!
+```
+
+#### `log`
+ログを出力します。
+ログでは、今まで行った操作の全てのログを出力します。  
+`[queryname]`に関しては、指定がある場合はそのクエリのみをフィルタして出力。  
+指定が無い場合は全てのクエリのログを出力します。
+```
+log: [YYYY-MM-DD hh:mm:ss] [queryname(optional)]
+```
+
+返答は以下の通りです。
+```
+-- log --
+[YYYY-MM-DD hh:mm:ss]: [queryname]
+[YYYY-MM-DD hh:mm:ss]: [queryname]
+[YYYY-MM-DD hh:mm:ss]: [queryname]
+.
+.
+.
+----
+```
 
 ## 2024年2月2日
 
