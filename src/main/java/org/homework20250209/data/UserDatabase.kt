@@ -16,6 +16,11 @@ class UserDatabase {
             ?: throw UserNotFoundException()
     }
 
+    fun getUser(userName: String): User {
+        return userList.find { it.username == userName }
+            ?: throw UserNotFoundException()
+    }
+
     fun getUserList(): List<User> {
         return userList
     }
