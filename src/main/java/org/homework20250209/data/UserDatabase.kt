@@ -1,7 +1,7 @@
-package org.homework20250202.data
+package org.homework20250209.data
 
-import org.homework20250202.entity.User
-import org.homework20250202.exception.UserNotFoundException
+import org.homework20250209.entity.User
+import org.homework20250209.exception.UserNotFoundException
 
 class UserDatabase {
     private val userList = mutableListOf<User>()

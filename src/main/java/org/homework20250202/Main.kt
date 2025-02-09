@@ -1,7 +1,7 @@
 package org.homework20250202
 
 import org.homework20250202.data.UserDatabase
-import org.homework20250202.query.AddUserQuery
+import org.homework20250202.query.*
 import java.io.File
 
 
@@ -17,9 +17,14 @@ fun main() {
             val lineList = line.split(" ")
             val queryType = lineList[0]
 
-            val query = when (queryType) {
+            val query: Query = when (queryType) {
                 "add_user:" -> AddUserQuery(lineList)
-                else -> throw IllegalArgumentException("Invalid query type: $queryType")
+                "remove_user:" -> RemoveUserQuery(lineList)
+                "show_users:" -> ShowUsersQuery(lineList)
+                else -> {
+                    println(lineList)
+                    throw IllegalArgumentException("Invalid query type: $queryType")
+                }
             }
 
             query.execute()
