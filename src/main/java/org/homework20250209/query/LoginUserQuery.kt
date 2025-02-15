@@ -1,15 +1,22 @@
 package org.homework20250209.query
 
+import org.homework20250209.QUERY_LOGIN_USER
 import org.homework20250209.data.UserDatabase
 import org.homework20250209.entity.User
 
 class LoginUserQuery(line: List<String>): Query {
+
+    override val queryType = QUERY_LOGIN_USER
+    override val date: String
+
     val userName: String
     val password: String
+
 
     init {
         userName = line[IDX_USERNAME]
         password = line[IDX_PASSWORD]
+        date = "${line[IDX_DATE]} ${line[IDX_TIME]}"
     }
 
     override fun execute() {

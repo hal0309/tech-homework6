@@ -7,7 +7,17 @@ import org.homework20250209.query.Query
 class LogDatabase {
     private val logList = mutableListOf<Query>()
 
+    fun addLog(query: Query) {
+        logList.add(query)
+    }
 
+    fun getLogList(): List<Query> {
+        return logList
+    }
+
+    fun clear() {
+        logList.clear()
+    }
 
     companion object {
         private var INSTANCE: LogDatabase? = null
