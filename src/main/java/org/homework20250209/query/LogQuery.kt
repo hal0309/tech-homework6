@@ -1,11 +1,13 @@
 package org.homework20250209.query
 
-import org.homework20250209.QUERY_SHOW_USERS
+
+import org.homework20250209.QUERY_LOG
+import org.homework20250209.data.LogDatabase
 import org.homework20250209.data.UserDatabase
 
-class ShowUsersQuery(line: List<String>): Query {
+class LogQuery(line: List<String>): Query {
 
-    override val queryType: String = QUERY_SHOW_USERS
+    override val queryType: String = QUERY_LOG
     override val date: String
 
     init {
@@ -13,10 +15,10 @@ class ShowUsersQuery(line: List<String>): Query {
     }
 
     override fun execute() {
-        val userList = UserDatabase.getInstance().getUserList()
-        println("--users--")
-        userList.forEach {
-            println("${it.id}: ${it.username}")
+        val logList = LogDatabase.getInstance().getLogList()
+        println("-- log --")
+        logList.forEach {
+            println("${it.date}: ${it.queryType}")
         }
         println("----")
     }

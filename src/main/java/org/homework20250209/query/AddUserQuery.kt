@@ -1,10 +1,16 @@
 package org.homework20250209.query
 
+import org.homework20250209.QUERY_ADD_USER
 import org.homework20250209.data.UserDatabase
 import org.homework20250209.entity.User
 
 class AddUserQuery(line: List<String>): Query {
+
+    override val queryType = QUERY_ADD_USER
+    override val date: String
+
     val user: User
+
 
     init {
         user = User(
@@ -13,6 +19,7 @@ class AddUserQuery(line: List<String>): Query {
             line[IDX_PASSWORD],
             "${line[IDX_DATE]} ${line[IDX_TIME]}"
         )
+        date = "${line[IDX_DATE]} ${line[IDX_TIME]}"
     }
 
     override fun execute() {

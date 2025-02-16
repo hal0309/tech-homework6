@@ -1,12 +1,19 @@
 package org.homework20250209.query
 
+import org.homework20250209.QUERY_REMOVE_USER
 import org.homework20250209.data.UserDatabase
 import org.homework20250209.exception.UserNotFoundException
 
 class RemoveUserQuery(line: List<String>): Query {
+
+    override val queryType: String = QUERY_REMOVE_USER
+    override val date: String
+
     val userId: String
+
     init {
         userId = line[IDX_USERID]
+        date = "${line[IDX_DATE]} ${line[IDX_TIME]}"
     }
 
     override fun execute() {
