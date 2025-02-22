@@ -1,12 +1,12 @@
 package org.homework20250209.query
 
-import org.homework20250209.QUERY_REMOVE_USER
 import org.homework20250209.data.UserDatabase
 import org.homework20250209.exception.UserNotFoundException
+import org.homework20250209.util.Enum
 
 class RemoveUserQuery(line: List<String>): Query {
 
-    override val queryType: String = QUERY_REMOVE_USER
+    override val queryType: String = Enum.QUERY_REMOVE_USER.query
     override val date: String
 
     val userId: String
