@@ -1,12 +1,12 @@
 package org.homework20250209.query
 
-import org.homework20250209.QUERY_ADD_USER
 import org.homework20250209.data.UserDatabase
 import org.homework20250209.entity.User
+import org.homework20250209.util.Enum
 
 class AddUserQuery(line: List<String>): Query {
 
-    override val queryType = QUERY_ADD_USER
+    override val queryType = Enum.QUERY_ADD_USER.query
     override val date: String
 
     val user: User

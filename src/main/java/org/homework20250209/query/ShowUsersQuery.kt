@@ -1,11 +1,11 @@
 package org.homework20250209.query
 
-import org.homework20250209.QUERY_SHOW_USERS
 import org.homework20250209.data.UserDatabase
+import org.homework20250209.util.Enum
 
 class ShowUsersQuery(line: List<String>): Query {
 
-    override val queryType: String = QUERY_SHOW_USERS
+    override val queryType: String = Enum.QUERY_SHOW_USERS.query
     override val date: String
 
     init {
