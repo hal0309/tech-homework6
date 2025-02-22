@@ -6,7 +6,7 @@ import org.homework20250209.entity.User
 
 class AddUserQuery(line: List<String>): Query {
 
-    override val queryType = QUERY_ADD_USER
+    override val queryType = QueryEnum.ADD_USER
     override val date: String
 
     val user: User

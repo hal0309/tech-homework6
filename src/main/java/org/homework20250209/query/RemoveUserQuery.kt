@@ -6,7 +6,7 @@ import org.homework20250209.exception.UserNotFoundException
 
 class RemoveUserQuery(line: List<String>): Query {
 
-    override val queryType: String = QUERY_REMOVE_USER
+    override val queryType = QueryEnum.REMOVE_USER
     override val date: String
 
     val userId: String

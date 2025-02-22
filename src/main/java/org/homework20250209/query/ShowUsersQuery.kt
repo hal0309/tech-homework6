@@ -5,7 +5,7 @@ import org.homework20250209.data.UserDatabase
 
 class ShowUsersQuery(line: List<String>): Query {
 
-    override val queryType: String = QUERY_SHOW_USERS
+    override val queryType = QueryEnum.SHOW_USERS
     override val date: String
 
     init {
